@@ -10,7 +10,7 @@ import org.dafy.golddata.GoldData;
 
 import java.util.UUID;
 
-@CommandAlias("Gold")
+@CommandAlias("UGold")
 public class GetData extends BaseCommand {
     @Dependency
     private GoldData plugin;

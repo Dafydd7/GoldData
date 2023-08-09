@@ -11,10 +11,14 @@ import org.bukkit.configuration.Configuration;
 import org.bukkit.entity.Player;
 import org.dafy.golddata.GoldData;
 
-import java.util.*;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.UUID;
 import java.util.stream.Collectors;
 
-@CommandAlias("Gold")
+@CommandAlias("UGold")
 public class TopCustomers extends BaseCommand {
     @Dependency
     private GoldData plugin;

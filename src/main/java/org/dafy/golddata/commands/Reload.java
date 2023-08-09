@@ -9,7 +9,7 @@ import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.dafy.golddata.GoldData;
 
-@CommandAlias("Gold")
+@CommandAlias("UGold")
 public class Reload extends BaseCommand {
     @Dependency
     private GoldData plugin;

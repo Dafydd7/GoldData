@@ -14,7 +14,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.UUID;
 
-@CommandAlias("Gold")
+@CommandAlias("UGold")
 public class AddData extends BaseCommand {
     @Dependency
     private GoldData plugin;
