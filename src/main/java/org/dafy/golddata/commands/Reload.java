@@ -17,6 +17,7 @@ public class Reload extends BaseCommand {
     public void reload(Player sender){
         //Reload the config.yml & send the player a message.
         plugin.reloadConfig();
+        plugin.getDataHandler().initialiseData();
         sender.sendMessage(ChatColor.GREEN + "Reloaded successfully!");
     }
 }

@@ -9,8 +9,5 @@
         <module name="GoldData" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="GoldData" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
