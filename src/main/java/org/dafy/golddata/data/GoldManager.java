@@ -18,7 +18,9 @@ public class GoldManager {
     public Gold getGold(UUID uuid){
        return userValues.get(uuid);
     }
-
+    public Collection<Gold> getValue(){
+        return userValues.values();
+    }
     public List<Map.Entry<UUID, Gold>> getTop10Entries() {
         return userValues.entrySet()
                 .stream()

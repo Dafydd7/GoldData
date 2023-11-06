@@ -14,7 +14,7 @@ public class DataHandler {
     public DataHandler(GoldData plugin){
         this.plugin = plugin;
         this.goldManager = plugin.getGoldManager();
-        logger = plugin.getLogger();
+        this.logger = plugin.getLogger();
     }
     public void initialiseData(){
         final Configuration config = plugin.getConfig();

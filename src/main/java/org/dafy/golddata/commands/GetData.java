@@ -15,7 +15,7 @@ import java.util.UUID;
 public class GetData extends BaseCommand {
     @Dependency
     private GoldData plugin;
-    @Subcommand("GetData|Data") @CommandPermission("goldStats.admin.getData") @Syntax("<player>  &a- Get players gold data.")
+    @Subcommand("GetData|Data") @CommandPermission("goldStats.admin.getData") @Syntax("<Player>  &a- Get players gold data.")
     public void getGoldData(Player sender, OfflinePlayer target){
         //Check to see whether the player has actually been on the server.
         if(!target.hasPlayedBefore()){

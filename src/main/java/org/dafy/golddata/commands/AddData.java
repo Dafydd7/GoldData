@@ -18,7 +18,7 @@ import java.util.UUID;
 public class AddData extends BaseCommand {
     @Dependency
     private GoldData plugin;
-    @CommandAlias("AddData") @CommandPermission("goldStats.admin.addData") @Syntax("<player> <gold> <item name> - &a Add info to players gold history.")
+    @CommandAlias("AddData") @CommandPermission("goldStats.admin.addData") @Syntax("<Player> <Gold Amount> <Item Name> - &a Add info to players gold history.")
     public void addGoldData(OnlinePlayer player, int amount, String... itemNameArgs){
         final UUID uuid = player.getPlayer().getUniqueId();
         Date date = new Date();
